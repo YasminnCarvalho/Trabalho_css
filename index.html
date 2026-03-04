@@ -7,7 +7,9 @@
 </head>
 <body>
 
-    <h1 style="color: blue;" id="titulo-principal">Laboratório de Seletores</h1>
+    <h1 style="color: blue;" id="tit
+    
+    ulo-principal">Laboratório de Seletores</h1>
 
     <section class="secao">
         <h2>Seção de Textos</h2>
@@ -20,7 +22,7 @@
         <h2>Lista de Itens</h2>
         <ul id="lista">
             <li>Item 1</li>
-            <li class="importante">Item 2</li>
+            <li class="importante" style="color: red;">Item 2</li>
             <li>Item 3</li>
         </ul>
     </section>
@@ -32,6 +34,18 @@
             <input type="email" placeholder="Email">
             <input type="password" placeholder="Senha">
             <button type="submit">Enviar</button>
+            <style>
+                button {
+                    background-color: green;
+                    color:white
+                    padding: 10px 20px;
+                    border: none;
+                    cursor pointer;
+                }
+                button:hover {
+                    background-color: darkgreen;
+                }
+            </style>
         </form>
     </section>
 
